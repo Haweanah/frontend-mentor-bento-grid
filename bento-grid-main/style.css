@@ -219,12 +219,23 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 1.5rem;
+}
+
+.box-4 .top-text {
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
 .box-4 > img {
     width: 100%;
     max-width: 100%;
     height: auto;
+}
+
+.box-4  .bottom-text {
+    text-align: center;
+    font-size: 1.2rem;
 }
 
 .box-5 {
