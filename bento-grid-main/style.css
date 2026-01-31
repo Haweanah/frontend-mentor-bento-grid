@@ -92,7 +92,7 @@ body {
 .socials {
     display: flex;
     gap: 0.3rem;
-    font-size: 12px;
+    font-size: 11.5px;
     
 }
 
@@ -328,10 +328,35 @@ body {
     height: auto;
 }
 
+
 .box-8 {
     background-color: hsl(39, 100%, 71%);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    padding: 1.5rem;
 }
 
+.box-8 .top-text {
+    font-size: 1.9rem;
+    font-weight: 600;
+    line-height: 1.6rem;
+}
+
+.box-8 > img {
+    width: 80%;
+    max-width: 80%;
+}
+
+.attribution {
+    padding: 1rem;
+}
 @media (max-width: 375px) {
     .insta-icon, 
     .x-icon {
