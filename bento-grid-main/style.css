@@ -265,10 +265,46 @@ body {
 
 .box-6 {
     background-color: hsl(0, 0%, 100%);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1.2rem;
+
+
+    box-shadow: 0 4px 10px hsla(0, 0%, 0%, 0.05);
+}
+
+.box-6 .top-text {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.box-6 .mid-text {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.box-6 > img {
+    width: 60%;
+    max-width: 60%;
+    height: auto;
+    
 }
 
 .box-7 {
     background-color: hsl(31, 66%, 93%);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
 }
 
 .box-8 {
