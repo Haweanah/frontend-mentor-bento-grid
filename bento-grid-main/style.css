@@ -211,10 +211,6 @@ body {
     background-color: hsl(254, 88%, 90%);
     padding: 1.5rem 1rem;
     border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -235,11 +231,36 @@ body {
 
 .box-4  .bottom-text {
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .box-5 {
-    background-color: hsl(256, 67%, 59%)
+    background-color: hsl(256, 67%, 59%);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+    
+}
+
+.box-5 > img {
+    width: 70%;
+    max-width: 70%;
+    height: auto;
+}
+
+.box-5 .bottom-text {
+    color: hsl(40, 60%, 96%);
+    font-size: 1.8rem;
+    text-align: center;
+    width: 70%;
 }
 
 .box-6 {
